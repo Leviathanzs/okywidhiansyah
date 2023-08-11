@@ -139,6 +139,11 @@ body {
     box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
 
+.hero .content .btn:hover {
+    background-color: #fff;
+    color: #ffc108;
+}
+
 .hero .sosmed {
     display: flex;
     justify-content: center;
@@ -149,9 +154,14 @@ body {
     color: #fff;
 }
 
+.hero .sosmed a:hover {
+    color: #ffc108;
+}
+
 .feather-size {
     width: 3rem;
     height: 3rem;
+    stroke-width: 3px;
 }
 /*Hero End*/
 
