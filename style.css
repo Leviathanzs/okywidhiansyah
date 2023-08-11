@@ -12,6 +12,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #010101;
     color: #fff;
+    min-height: 2000px;
 }
 
 /* navbar */
@@ -34,10 +35,11 @@ body {
     font-weight: 700;
     font-style: italic;
     color: #fff;
+    position: relative;
 }
 
 .navbar .navbar-logo span {
-    color: #ffc108;
+  color: #ffc108;
 }
 
 .navbar .navbar-nav a {
@@ -80,8 +82,78 @@ body {
 .navbar-nav{order: 3;}
 .navbar-extra{order: 2;}
 
-
 /*Navbar End*/
+
+/*Hero*/
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    bottom: 0;
+    background: linear-gradient(0deg, 
+    rgba(1, 1, 3, 1)8%, rgba(255, 255, 255, 0)50%);
+}
+
+.hero .content {
+    max-width: 60rem;
+}
+
+.hero .content h1 {
+    font-size: 3.5em;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+}
+
+.hero .content span {
+    color: #ffc108;
+}
+
+.hero .content p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+}
+
+.hero .content .btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.4rem;
+    color: #fff;
+    background-color: #ffc108;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+}
+
+.hero .sosmed {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.hero .sosmed a {
+    color: #fff;
+}
+
+.feather-size {
+    width: 3rem;
+    height: 3rem;
+}
+/*Hero End*/
 
 /*Media Queries*/
 
