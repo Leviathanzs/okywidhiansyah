@@ -240,7 +240,13 @@ body {
 }
 
 .projects .card-container .card {
-    padding: 1rem 1rem;
+    margin: 2rem 2rem;
+    box-shadow:2px 2px 4px rgba(255, 255, 255, 0.4); 
+    transition: 0.3s;
+}
+
+.projects .card-container .card:hover {
+    box-shadow: 4px 4px 8px rgba(255, 144, 8,1);
 }
 
 .projects .card-container .card img {
