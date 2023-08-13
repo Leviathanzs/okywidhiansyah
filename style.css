@@ -12,7 +12,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #010101;
     color: #fff;
-    /*min-height: 2000px;*/
+    min-height: 3000px;
 }
 
 /* navbar */
@@ -217,6 +217,64 @@ body {
     text-align: justify;
 }
 /*About Me End*/
+
+/*Projects*/
+.projects {
+    padding: 8rem 7% 1.4rem;
+}
+
+.projects h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+}
+
+.projects span {
+    color: #ffc108;
+}
+
+.projects .card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projects .card-container .card {
+    padding: 1rem 1rem;
+}
+
+.projects .card-container .card img {
+    width: 25rem;
+    height: auto;
+}
+
+.projects .card-container .card .card-content {
+    background-color: #fff;
+    max-width: 25rem;
+    padding: 1rem;
+}
+
+.projects .card-container .card .card-content {
+    color: #000;
+}
+
+.projects .card-container .card .card-content .btn-projects {
+    margin-top: 1rem;
+    padding: 0.8rem;
+    display: inline-block;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #ffc108;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+}
+
+.projects .card-container .card .card-content .btn-projects:hover {
+    color: #ffc108;
+    background-color: #010101;
+}
+
+/*Project End*/
 
 /*Media Queries*/
 
